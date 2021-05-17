@@ -3,7 +3,7 @@ name: yousha
 on:
   workflow_dispatch:
   schedule:
-     - cron: '*/20 6-22 * * *'
+     - cron: '*/20 * * * *'
   watch:
 jobs:
   build:
